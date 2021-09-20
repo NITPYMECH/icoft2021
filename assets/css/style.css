@@ -734,7 +734,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #about {
 	background: url("../img/scienceblock.jpg");
-	background-size: contain;
+	background-size: cover;
 	overflow: hidden;
 	position: relative;
 	color: #fff;
