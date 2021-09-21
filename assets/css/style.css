@@ -4,7 +4,7 @@
 body {
 	color: black;
 	font-family: "Open Sans", sans-serif;
-	background: linear-gradient(-270deg, skyblue, lightgreen, cyan, pink);
+	background: linear-gradient(0deg, skyblue, lightgreen, cyan, pink);
 	background-size: 500% 400%;
 	animation: change 5s ease-in-out infinite;
 }
@@ -275,7 +275,7 @@ h6 {
 
 .nav-menu li:hover > ul,
 .nav-menu li.sfHover > ul {
-	display: block;
+	display: inline;
 }
 
 .nav-menu ul ul {
