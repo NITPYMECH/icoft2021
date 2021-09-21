@@ -533,10 +533,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #intro {
 	width: 100%;
-	height: 100vh;
-	background: url(../img/nitgate.jpg) top center;
+	height: 150vh;
+	/* background: url(../img/nitgate.jpg) top center; */
 	background-size: cover;
-	background-position: center;
+	background-position: top;
 	overflow: hidden;
 	position: relative;
 }
@@ -700,11 +700,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 	color: #fff;
 	-webkit-animation-delay: 0.8s;
 	animation-delay: 0.8s;
-	border: 2px solid #f82249;
+	border: 2px solid orangered;
 }
 
 #intro .about-btn:hover {
-	background: #f82249;
+	background: orangered;
 	color: #fff;
 }
 
